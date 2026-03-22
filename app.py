@@ -146,17 +146,20 @@ st.markdown(
         margin: 1rem 0;
     }
 
-    /* Input alanı stilleri */
-    .stTextInput > div > div > input {
-        background: rgba(255,255,255,0.15) !important;
-        border: 2px solid rgba(255,215,0,0.5) !important;
+    /* Input alanı stilleri - yazı okunabilir olsun */
+    .stTextInput input, .stTextInput > div > div > input {
+        background: rgba(255,255,255,0.95) !important;
+        border: 2px solid rgba(255,215,0,0.6) !important;
         border-radius: 12px !important;
-        color: white !important;
+        color: #1a1a2e !important;
+        -webkit-text-fill-color: #1a1a2e !important;
         font-size: 1.1rem !important;
+        font-weight: 500 !important;
     }
 
-    .stTextInput > div > div > input::placeholder {
-        color: rgba(255,255,255,0.5) !important;
+    .stTextInput input::placeholder {
+        color: #6b7280 !important;
+        -webkit-text-fill-color: #6b7280 !important;
     }
 
     /* Öneri başlığı */
