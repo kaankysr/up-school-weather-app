@@ -188,7 +188,7 @@ st.markdown('<p class="main-title">🌤️ Hava Durumuna Göre Aktivite Önerici
 st.markdown('<p class="subtitle-text">@kaankysr · Şehir adını gir, bugün ne yapacağını keşfet 🚀</p>', unsafe_allow_html=True)
 
 # API Anahtarı (.env dosyasından veya ortam değişkeninden)
-API_KEY = os.environ.get("OPENWEATHER_API_KEY", "")
+API_KEY = "da5e68fb21b2a08958925c135b57217b"
 
 # Input alanı - ortalı ve şık
 col1, col2, col3 = st.columns([1, 2, 1])
